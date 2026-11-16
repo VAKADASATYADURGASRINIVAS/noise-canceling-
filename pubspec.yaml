@@ -1,0 +1,24 @@
+name: pure_voice_ai
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  provider: ^6.1.1
+  audioplayers: ^5.2.1    
+  file_picker: ^8.1.4     
+  path_provider: ^2.1.1   
+  permission_handler: ^11.1.0 
+  audio_waveforms: ^1.0.6
+  
+  # The community fork that successfully compiles the advanced audio filters
+  ffmpeg_kit_flutter_new: any
+
+flutter:
+  uses-material-design: true
